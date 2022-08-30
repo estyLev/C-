@@ -1,0 +1,14 @@
+C:\אסתי לב\c#\week1\week1\bin\Debug\netcoreapp3.1\week1.exe
+C:\אסתי לב\c#\week1\week1\bin\Debug\netcoreapp3.1\week1.deps.json
+C:\אסתי לב\c#\week1\week1\bin\Debug\netcoreapp3.1\week1.runtimeconfig.json
+C:\אסתי לב\c#\week1\week1\bin\Debug\netcoreapp3.1\week1.runtimeconfig.dev.json
+C:\אסתי לב\c#\week1\week1\bin\Debug\netcoreapp3.1\week1.dll
+C:\אסתי לב\c#\week1\week1\bin\Debug\netcoreapp3.1\week1.pdb
+C:\אסתי לב\c#\week1\week1\obj\Debug\netcoreapp3.1\week1.csproj.AssemblyReference.cache
+C:\אסתי לב\c#\week1\week1\obj\Debug\netcoreapp3.1\week1.GeneratedMSBuildEditorConfig.editorconfig
+C:\אסתי לב\c#\week1\week1\obj\Debug\netcoreapp3.1\week1.AssemblyInfoInputs.cache
+C:\אסתי לב\c#\week1\week1\obj\Debug\netcoreapp3.1\week1.AssemblyInfo.cs
+C:\אסתי לב\c#\week1\week1\obj\Debug\netcoreapp3.1\week1.csproj.CoreCompileInputs.cache
+C:\אסתי לב\c#\week1\week1\obj\Debug\netcoreapp3.1\week1.dll
+C:\אסתי לב\c#\week1\week1\obj\Debug\netcoreapp3.1\week1.pdb
+C:\אסתי לב\c#\week1\week1\obj\Debug\netcoreapp3.1\week1.genruntimeconfig.cache
