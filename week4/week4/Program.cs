@@ -25,7 +25,25 @@ namespace week4
         }
         #endregion
         #region exercise2
+        public static bool checkPermutation(string str1,string str2)
+        {
+            if (str1.Length != str2.Length)
+                return false;
 
+            int[] arr1 = new int[129];
+            int[] arr2 = new int[129];
+            for (int i = 0; i < str1.Length; i++)
+            {
+                arr1[str1[i]]++;
+                arr2[str2[i]]++;
+            }
+            for (int i = 0; i < 129; i++)
+            {
+                if (arr1[i] != arr2[i])
+                    return false;
+            }
+            return true;
+        }
         #endregion
         #region exercise3
         public static string URLify(string str)
@@ -45,7 +63,28 @@ namespace week4
         }
         #endregion
         #region exercise4
-
+        public static bool PalindromePermutation(string str)
+        {
+            int[] arr = new int[129];
+            bool flag = false;
+            for (int i = 0; i < str.Length; i++)
+            {
+                if(str[i]!=' ')
+                 arr[str[i]]++;
+            }
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if(arr[i]%2!=0)
+                {
+                    if (!flag)
+                        flag = true;
+                    else
+                        return false;
+                }
+                    
+            }
+            return true;
+        }
         #endregion
         #region exercise5
         public static string compression(string str)
@@ -71,11 +110,17 @@ namespace week4
         }
         #endregion
         #region exercise6
+        //public static bool stringRotation(string str1,string str2)
+        //{
+        //    string temp1 = "";
+        //    string temp2 = "";
 
+
+        //}
         #endregion
         static void Main(string[] args)
         {
-            Console.WriteLine(compression("abca"));
+            Console.WriteLine(checkPermutation("sod","Dos"));
         }
     }
 }
